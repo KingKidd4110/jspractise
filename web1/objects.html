@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objects</title>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+
+    <script>
+        // const product = {
+        //     name: 'laptop',
+        //     price: 1000,
+        //     stock: 100,
+        //     description: 'this is a laptop'
+        // };
+
+        // console.log(product);
+        // console.log(product.name);
+
+        /*
+
+        const product2 = {
+            name: 'shirt',
+            ['deal-ends']: '1 day',
+            rating: {
+                stars: 5,
+                count: 1000,
+                average: 4.5
+            },
+            hint: function totalStars() {
+                console.log(product2.rating.stars * product2.rating.count)
+            }
+        };
+
+        console.log(product2.name);
+        console.log(product2['deal-ends']);
+        product2.hint()
+        console.log(JSON.stringify(product2));
+        */
+
+        const object3 = {
+          message: 'hello',
+          person: 'you'
+        };
+
+        const object4 = object3
+
+        const { message, person } = object3; //destructure object3
+
+        method(){
+          console.log('method')
+        };
+    </script>
+
+  </body>
+</html>
